@@ -15,7 +15,7 @@ def biggest_joltage(row):
 with open("3.txt", "r") as file:
     for line in file.readlines():
         x, y = biggest_joltage(line)
-        print(x, y)
+        # print(x, y)
         sum += 10 * x + y
 
 print(sum)
